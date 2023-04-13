@@ -1,0 +1,14 @@
+.row {
+  background-color: #5DADE2; 
+  
+}
+.lista{
+    list-style: none;
+  }
+.nombre_estudio{
+    text-align: center;
+
+}
+.texto_educacion{
+    margin-left: 2%;
+}

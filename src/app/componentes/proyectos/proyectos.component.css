@@ -1,0 +1,42 @@
+.row{
+    background-color: #5DADE2; 
+}
+.titulo-proyecto{
+    text-align: center;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /*align-items: center;*/
+  }
+  .RPIC{
+    padding: 1%;
+  }
+  
+  /*
+  .col-sm-12 {
+    flex-basis: 100%;
+  }
+  /*
+  .col-md-7 {
+    flex-basis: 70%;
+  }
+  
+  .col-md-3 {
+    flex-basis: 30%;
+  }
+  
+  .offset-md-1 {
+    margin-left: 10%;
+  }
+  */
+/*
+  .parte2 {
+    text-align: center;
+  }
+  */
+  img {
+    max-width: 200%;
+  }
+  

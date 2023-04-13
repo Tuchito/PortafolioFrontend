@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 2px;
+    overflow-x: hidden;
+  }
+
+  .in-icono{
+    width: 100px;
+    height: 100px;
+    padding-top: 5px;
+    fill: blue;
+  }
+  
+  /**Estilos para los demás iconos**/
+  .icono{
+    width: 100px;
+    height: 97px;
+    padding-top: 5px;
+    fill: blue;
+  }
+  
+  .in-icono:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  
+  .icono:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  
+  /*****Estilos para el botón******/
+  .boton button{
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+    }
+    
+    .boton button:hover {
+      background-color: darkblue;
+      cursor: pointer;
+    }
+  
+    .boton{
+      height: 96%;
+      padding-left: 2px;
+      padding-bottom: 1px;
+    }
+  
+    /*Estilos para el logo*/
+  .logo-AP{
+      width: 180px;
+      height: 100%;
+  }
+    .logo-AP img{
+      width: 100%;
+      height: 120%;
+      padding-top: 7px; 
+      padding-left: 5px;
+      padding-bottom: 2px;
+    }
+  
+    /*Estilos para definir el Header*/
+    .container-header{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: #5DADE2; 
+    }
+  
+    /*Estilos contenedor redes-boton*/
+    .redes-boton{
+      width: 87%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      
+    }
+  
+    /*Estilos para el boton de sesión*/
+    .container-header .redes-boton .boton{
+      display: flex;
+      align-items: flex-end;
+    }
+
+    /*Estilos para la vista del celular*/
+    @media( max-width: 575px){
+      
+      .container-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .redes-sociales img{
+        margin: 0.2em;
+      }
+      .boton{
+        display: flex;
+        align-items: center;
+      }
+      
+    }

@@ -1,0 +1,15 @@
+/************************************/
+/******Estilos Experiencia***********/
+/************************************/
+.row{
+  background-color: #5DADE2; 
+  text-align: center;
+}
+
+.nombre_empresa{
+  display: inline;
+}
+
+.lista{
+  list-style: none;
+}

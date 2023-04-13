@@ -1,0 +1,17 @@
+
+.container_banner_perfil{
+    position: relative;
+}
+
+.foto_banner{
+    width: 100%;
+    height: 35rem;
+    
+    }
+    .foto_banner img {
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    }
